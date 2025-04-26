@@ -1,5 +1,5 @@
 {
-	"name": "sql.js",
+	"name": "@timemanx/sql.js",
 	"version": "1.13.0",
 	"description": "SQLite library with support for opening and writing databases, prepared statements, and more. This SQLite library is in pure javascript (compiled with emscripten).",
 	"keywords": [
@@ -32,13 +32,13 @@
 		"test-wasm-debug": "node --unhandled-rejections=strict test/all.js wasm-debug",
 		"doc": "jsdoc -c .jsdoc.config.json"
 	},
-	"homepage": "http://github.com/sql-js/sql.js",
+	"homepage": "https://github.com/timemanx/sql.js",
 	"repository": {
 		"type": "git",
-		"url": "http://github.com/sql-js/sql.js.git"
+		"url": "https://github.com/timemanx/sql.js"
 	},
 	"bugs": {
-		"url": "https://github.com/sql-js/sql.js/issues"
+		"url": "https://github.com/timemanx/sql.js/issues"
 	},
 	"devDependencies": {
 		"clean-jsdoc-theme": "^4.2.0",
