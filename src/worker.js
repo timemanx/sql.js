@@ -1,5 +1,4 @@
 /* global initSqlJs */
-/* eslint-env worker */
 /* eslint no-restricted-globals: ["error"] */
 
 "use strict";
@@ -102,7 +101,6 @@ if (typeof importScripts === "function") {
 }
 
 if (typeof require === "function") {
-    // eslint-disable-next-line global-require
     var worker_threads = require("worker_threads");
     var parentPort = worker_threads.parentPort;
     // eslint-disable-next-line no-undef
